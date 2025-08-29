@@ -23,9 +23,9 @@ module.exports = (req, res) => {
 
     return res.status(200).json({
       is_success: true,
-      user_id: "john_doe_17091999",
-      email: "john@xyz.com",
-      roll_number: "ABCD123",
+      user_id: "kshitij_kumar_22BAI1161",
+      email: "kshitij.kumar2022@vitstudent.ac.in",
+      roll_number: "22BAI1161",
       odd_numbers,
       even_numbers,
       alphabets,
