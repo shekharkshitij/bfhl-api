@@ -27,7 +27,6 @@ module.exports = (req, res) => {
         }
       });
 
-      // reverse + alternating caps
       let combinedAlpha = allAlphabets.join("").split("").reverse();
       let concat_string = combinedAlpha
         .map((ch, i) => (i % 2 === 0 ? ch.toUpperCase() : ch.toLowerCase()))
@@ -35,9 +34,9 @@ module.exports = (req, res) => {
 
       return res.status(200).json({
         is_success: true,
-        user_id: "john_doe_17091999",   // change with your details
-        email: "john@xyz.com",          // change with your email
-        roll_number: "ABCD123",         // change with your roll no
+        user_id: "john_doe_17091999",
+        email: "john@xyz.com",
+        roll_number: "ABCD123",
         odd_numbers,
         even_numbers,
         alphabets,
