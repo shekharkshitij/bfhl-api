@@ -1,15 +1,7 @@
 {
-  "name": "project",
+  "name": "bfhl-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^5.1.0"
-  }
+  "main": "api/bfhl.js",
+  "license": "MIT",
+  "dependencies": {}
 }
